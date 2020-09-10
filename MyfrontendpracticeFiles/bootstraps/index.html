@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <title>Bootstrap cheat sheet</title>
+  </head>
+  <body>
+        <div class="container">
+            <!--Typography-->
+            <h1 class="page-header">Hello, world! <small>secondary text</small> </h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, ipsum.
+            </p>
+            <p><mark>this text use the mark properties</mark> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel distinctio ratione tenetur. 
+                Quam ad natus voluptatum alias, possimus repellat quos quod eaque iure aliquam repudiandae, asperiores dolorem sapiente! Eum, ut.
+                <del>This  tags uses the del tag</del>
+
+            </p>
+            <hr>
+            <!--Alignment & Transformation-->
+            <p class="text-left text-lowercase">Left aligned text.</p>
+            <p class="text-right text-uppercase">right aligned text.</p>
+            <p class="text-center text-capitalize">Center aligned text.</p>
+            <p class="text-justify">Justified aligned text.</p>
+            <p class="text-nowrap">No wrap text</p>
+
+            <!--Quick Floats-->
+            <div class="pull-right">Div Float to right</div>
+            <div class="pull-left">Div float to left</div>
+            <!--Clear Float-->   
+            <div class="clearfix"></div>
+            <hr> 
+            <blockquote class="blockquote">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit fuga doloremque quas dignissimos facilis. Vitae 
+                    deleniti recusandae nesciunt sed! Itaque ad omnis doloribus velit provident earum eligendi odio dolorum unde.
+                </p>
+                <footer>Quote by <cite title="nick jones">Nick Jones</cite></footer>
+            </blockquote>
+            <hr>
+            <!--Lists-->
+             <ul class="list-unstyle">
+                 <li>items one</li>
+                 <li>items two</li>
+                 <li>items three</li>
+                 <li>items four</li>
+             </ul>
+             <ul class="list-inline">
+                    <li>items one</li>
+                    <li>items two</li>
+                    <li>items three</li>
+                    <li>items four</li>
+                </ul>
+                <!--code-->
+                <code>
+                    &lt; h1 &gt; Heading text &lt; /&gt;
+                </code>
+                <br>
+                Change directory with <kbd>cd</kbd>
+                <br>
+                To edit settings, press <kbd><kdb>ctrl</kdb>+ <kdb>,</kdb></kbd>
+                <hr>
+                <!--Contextual Text-->
+                <div>
+                <p class="text-primary">Hello world</p>
+                <p class="text-success">Hello world</p>
+                <p class="text-info">Hello world</p>
+                <p class="text-warning">Hello world</p>
+                <p class="text-danger">Hello world</p>
+                <p class="text-muted">Hello world</p>
+
+
+                <!--Contextual Background Color-->
+                <div>
+                        <p class="bg-primary">Hello world</p>
+                        <p class="bg-success">Hello world</p>
+                        <p class="bg-info">Hello world</p>
+                        <p class="bg-warning">Hello world</p>
+                        <p class="bg-danger">Hello world</p>
+                        <p class="bg-muted">Hello world</p>
+                </div>
+
+        </div>  
+        <hr>
+        <div class="container">
+        
+            <!--Buttons-->
+            <button class="btn btn-default">Button</button>
+            <a href="#" class="btn btn-default" role="button">link</a>
+            <input type="submit" class="btn btn-default" value="Submit">
+            <br>
+            <!--Contextual Buttons-->
+            <button class="btn btn-default">Default</button>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-danger">Delete</button>
+            <button class="btn btn-link">Link</button>
+            <br>
+
+            <!--Button Sizes-->
+            <button class="btn btn-primary btn-lg">Default</button>
+            <button class="btn btn-default btn-lg">Default</button>
+            <button class="btn btn-default btn-sm">small </button>
+            <button class="btn btn-default btn-xs">extra small</button>
+            <button class="btn btn-default btn-lg" disabled="disabled">Disable</button>
+
+        </div>
+        <hr>
+
+        <!--Forms-->
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Add Name">
+                </div>
+
+                <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Add email">
+                </div>
+
+                    <div class="form-group">
+                            <label>Message</label>
+                            <textarea type="text" class="form-control" placeholder="Add Message"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                            <label>Gender</label>
+                            <select name="" class="form-control" id="">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                                <option value="Custom">Custom</option>
+                                <option value="Rather Not Say">Rather Not Say</option>
+                            </select>
+                        </div>
+
+                    <div class="form-group">
+                        <label for="">Upload File</label>
+                        <input type="file">
+                        <p class="help-block">Only png and jpg allowed.</p>
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox"> Check Me Out
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+
+        </div>
+        <hr>
+        <div class="container">
+            <form action="" class="form-inline">
+                    <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" placeholder="password">
+                    </div>
+
+                    <div class="checkbox">
+                            <label for="">
+                                <input type="checkbox">Remember me
+                            </label>
+                            
+                    </div>
+                    <button type="submit" class="btn btn-default">login</button>
+
+            </form>
+        </div>
+
+
+
+<div style="height:500px;"></div>
+    <script src="./js/bootstrap.min.js"></script>
+</html>

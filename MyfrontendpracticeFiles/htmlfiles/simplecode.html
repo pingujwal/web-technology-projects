@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>samples</title>
+</head>
+<body>
+    <a href="index.html">Go to My Blogs Posts</a>
+    <hr>
+    <!--using the dev  which is box model-->
+    <!--Adding the Heading-->
+    <div class="heading">
+        <h1>This is the heading one</h1>
+        <h2>This is the heading two</h2>
+        <h3>This is the heading three</h3>
+        <h4>This is the heading four</h4>
+        <h5>This is the heading five</h5>
+        <h6>This is the heading six</h6>
+    </div>  
+    <!--brack the line(self colsing tag-->
+    <br>
+    <!--horizontial line using the hr tag-->
+    <hr>
+    <!--bold,italic and underline-->
+    <!--strong and b both can be use to blod the text .also strong is the sementic tags which means we can use the strong tags for other purposes using the css-->
+    <!--em and i both can be use to italic the text .also em is the sementic tags which means we can use the strong tags for other purposes using the css-->
+    <div class="textformates">
+        <strong>This text uses the strong tags</strong>
+        <em>This text uses the em tags</em>
+        <i>This text uses the i(italic) tags</i>
+        <b>This text uses the blod (b) tags</b>
+        <u>This text uses the underline tag</u>
+    </div>
+    <div class="links">
+        <!--We use the p tag for creating the paragraphs-->
+         <p>
+             <!--We use the target="_blank" for opening the linked site in new windows-->
+             Lorem ipsum<a href="google.com" target="_blank">This is the link to google page</a> dolor sit amet consectetur adipisicing elit.
+            Reiciendis mollitia ab ratione, atque dicta non culpa ipsum ipsam porro inventore 
+             quod doloribus exercitationem aliquid tempora nulla? Id, deleniti. Illo, eum.
+             <!--creating the link using a tags and combining with img tags etc..-->
+             <a href="https://www.youtube.com.np"><img src="images/image1.jpg" alt="vsiting card of freeze dai" width="400px"></a>
+        </p><!--img tag is the self closing tags-->
+    </div>
+    <!--list creation-->
+    <!--unorder list using ul-->
+    <div class="unorderList">
+        <ul><!--unorder list is generally use in navigation bars-->
+            <li>list items 1</li>
+            <li>list items 2</li>
+            <li>list items 3</li>
+        </ul>
+    </div> <!--unorder list ends here--> 
+    <!--order list using ol tag-->
+    <div class="orerList">
+        <ol>
+                <li>list items 1</li>
+                <li>list items 2</li>
+                <li>list items 3</li>
+        </ol>
+    </div><!--order list ends here-->
+    <!--table creation-->
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Umesh</td>
+                    <td>21</td>
+                    <td>umesh@gmail.com</td>
+                </tr>
+                <tr>
+                        <td>Ramesh</td>
+                        <td>22</td>
+                        <td>Ramesh@gmail.com</td>
+                    </tr>
+                    <tr>
+                            <td>umesh</td>
+                            <td>21</td>
+                            <td>umesh@gmail.com</td>
+                        </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <!--form Design-->
+        <form action="process.php" method="post">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="first-name" placeholder="Enter the first name">
+            </div>
+            <br>
+            <div>
+                <label>last Name</label>
+                <input type="text" name="lastName" placeholder="Enter the last name">
+            </div>
+            <br>
+            <div>
+                <label> Email</label>
+                <input type="email" name="Email" placeholder="Enter Your valid email">
+            </div>
+            <br>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" placeholder="enter the strong password">
+            </div>
+            <br>
+            <div>
+                <label> Gender</label>
+                <select name="gender" id="">
+                    <option value="male">Male</option>
+                    <option value="female">female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                 <label> Age</label>
+                 <input type="number" name="age" value="20">
+            </div>
+            <br>
+            <div>
+                    <label>Birthday</label>
+                    <input type="date" name="birthday">
+                </div>
+            <br>
+               
+            <div>
+                <label> Message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+           <br>
+          
+           
+
+                
+        </form>
+        <!--botton-->
+        <button>Click Me</button>
+    </div>
+    <hr>
+    <br>
+    <br>
+    <!--use of quotations-->
+    <blockquote cite="https://wwww.umeshkarki.org.np"> Some random text Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed assumenda quaerat velit possimus ea recusandae architecto exercitationem voluptatum repellat incidunt, sapiente ut quis ullam, ipsa corrupti distinctio magnam numquam sit?</blockquote>
+    <p> The <abbr title="Air Traffic Control">ATC</abbr> is awesome</p>
+    <p>
+        <cite>practice make man perfect</cite> is the key to success. 
+    </p>
+</body>
+</html>
